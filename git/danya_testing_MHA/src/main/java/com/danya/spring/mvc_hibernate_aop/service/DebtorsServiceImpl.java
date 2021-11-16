@@ -32,10 +32,4 @@ public class DebtorsServiceImpl implements DebtorsService{
         debtorsDao.getDebtors(id);
     }
 
-//    @Override
-//    @Transactional
-//    public void deleteDebtors(int id) {
-//        debtorsDao.deleteDebtors(id);
-//    }
-
 }

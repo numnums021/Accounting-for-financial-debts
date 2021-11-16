@@ -14,15 +14,12 @@ public class Debtors {
     private int id;
 
     @Column(name = "name")
-    @Size(min=2, max=25)
     private String name;
 
     @Column(name = "surname")
-    @Size(min=2, max=25)
     private String surname;
 
     @Column(name = "patronymic")
-    @Size(min=2, max=25)
     private String patronymic;
 
     @Column(name = "debtor_val")

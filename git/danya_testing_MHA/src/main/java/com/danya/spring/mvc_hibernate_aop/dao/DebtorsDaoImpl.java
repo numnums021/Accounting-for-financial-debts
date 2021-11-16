@@ -51,18 +51,6 @@ public class DebtorsDaoImpl implements DebtorsDao{
         debtors.setDebtor_val(0);
         session.update(debtors);
 
-        //return debtors;
     }
 
-    //@Override
-    //public void deleteDebtors(int id) {
-
-//        Session session = sessionFactory.getCurrentSession();
-//
-//        Query<Debtors> query = session.createQuery("delete from Debtors " +
-//                "where id =:debtorsId");
-//        query.setParameter("debtorsId", id);
-//        session.update();
-//        query.executeUpdate();
-        //}
 }

@@ -57,9 +57,9 @@ public class myController {
 
     @RequestMapping("/deleteDebtors")
     public String deleteDebtors(@RequestParam("dbtId") int id){
-        // Debtors debtors = debtorsService.getDebtors(id);
+
         debtorsService.getDebtors(id);
-        //debtorsService.deleteDebtors(id);
+
         return "redirect:/";
     }
 }
