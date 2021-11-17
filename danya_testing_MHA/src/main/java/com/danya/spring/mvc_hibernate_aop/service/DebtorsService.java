@@ -10,6 +10,8 @@ public interface DebtorsService {
 
     public void saveDebtors(Debtors debtors);
 
+    //public void deleteDebtors(int id);
+
     public void getDebtors(int id);
 
 }

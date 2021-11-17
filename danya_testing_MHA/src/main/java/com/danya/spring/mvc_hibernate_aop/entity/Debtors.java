@@ -1,7 +1,5 @@
 package com.danya.spring.mvc_hibernate_aop.entity;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+
 import javax.persistence.*;
 
 @Entity

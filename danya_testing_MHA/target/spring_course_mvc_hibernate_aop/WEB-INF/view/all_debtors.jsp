@@ -28,7 +28,7 @@
                 <td>${dbt.patronymic}</td>
                 <td>${dbt.debtor_val}</td>
                 <td>
-                    <input type="button" value="Delete"
+                    <input type="button" value="Списать долг"
                            onclick = "window.location.href = '${deleteButton}'">
                 </td>
             </tr>
@@ -38,6 +38,7 @@
 
 <input type="button" value="Добавить нового должника"
     onclick="window.location.href = 'addNewDebtors'"/>
+
 <input type="button" name = "ShowDebtors" value="Показать активных должников"
            onclick="window.location.href = 'showDebtors'"/>
 <input type="button" name = "ShowAllDebtors"  value="Показать всех должников"
